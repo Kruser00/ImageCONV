@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --color-bg-primary: #0f1115;
+  --color-bg-secondary: #1a1d23;
+  --color-bg-accent: #23272f;
+  --color-text-primary: #f0f2f5;
+  --color-text-secondary: #94a3b8;
+  --color-accent: #3b82f6;
+  --color-accent-glow: rgba(59, 130, 246, 0.2);
+  --color-border-dark: #334155;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
